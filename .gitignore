@@ -1,0 +1,76 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Add these lines to your .gitignore file
+
+# Confidential configuration files
+app_config.dart
+config/
+secrets/
+
+# Firebase configuration files (if you haven't already)
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# API keys and secrets
+**/api_keys.dart
+**/secrets.dart
+**/config.dart
+**/*_secrets.dart
+**/*_config.dart
+
+# Any files containing sensitive data
+sensitive_data/
+
+# These checked-in files contain placeholders only; keep real Firebase config local.
+!lib/app_config.dart
+!lib/firebase_options.dart

@@ -1,0 +1,20 @@
+{
+  "name": "nurse2",
+  "version": "1.0.0",
+  "description": "A comprehensive Flutter mobile application designed to streamline healthcare workflows by providing voice-activated task management and AI-powered patient vital signs recording.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@picovoice/cheetah-web": "^2.2.0",
+    "@picovoice/web-voice-processor": "^4.0.9"
+  }
+}
